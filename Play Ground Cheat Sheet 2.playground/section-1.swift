@@ -137,7 +137,6 @@ animals.ngalan = "Maningning"
 animals.edad = 4
 animals.animalName()
 
+println() //Just a Spacer for Playground
 
-
-
-
+println("\(animals.animalName())")
