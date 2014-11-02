@@ -140,3 +140,38 @@ animals.animalName()
 println() //Just a Spacer for Playground
 
 println("\(animals.animalName())")
+
+//Inheritance - Came from Class above (line 123)
+
+    class person : rabby { //took the same class name
+
+    func you() -> String{
+        return "rabby rabby rabby"
+
+        }
+}
+    class person2 : rabby {
+    
+        func you2() -> String {
+        return "middle name"
+        }
+}
+
+var RabbyGeno = person()
+RabbyGeno.ngalan = "Samantha"
+RabbyGeno.edad = 29
+RabbyGeno.you()
+
+
+var RabbyGenoCalicdan = person2()
+RabbyGenoCalicdan.edad = 12
+RabbyGenoCalicdan.animalName()
+RabbyGenoCalicdan.you2()
+//Repeat Variable
+RabbyGenoCalicdan.edad = 33
+RabbyGenoCalicdan.animalName()
+
+
+
+
+
