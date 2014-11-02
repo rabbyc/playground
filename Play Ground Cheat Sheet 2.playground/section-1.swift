@@ -44,8 +44,36 @@ for letters in loopVariable{
 println()
 
 
-for (var i = 0; i < 3; ++i){
+for (var i = 0; i < 4; ++i){
     println(loopVariable[i])
 }
 
 //Conditional Statements
+println()
+
+var fruit = "Apple"
+var veggie = "Brocolli"
+
+if (fruit == veggie){
+
+    println("Fruit is Equal to Veggie")
+}
+else{
+    
+    println("Fruit is NOT Equal to Veggie")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
