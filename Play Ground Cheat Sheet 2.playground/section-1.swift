@@ -49,7 +49,7 @@ for (var i = 0; i < 4; ++i){
 }
 
 //Conditional Statements
-println()
+println() //Just a Spacer for Playground
 
 var fruit = "Apple"
 var veggie = "Brocolli"
@@ -63,15 +63,79 @@ else{
     println("Fruit is NOT Equal to Veggie")
 }
 
+println() //Just a Spacer for Playground
+
+var carrier1 = "Smart"
+var carrier2 = "Globe"
+
+if (carrier1 == carrier2){
+    
+    println("Networks are Equal")
+    
+}else if (carrier1 != carrier2){
+    println("There is a difference")
+}
+
+//Switch Cases
+println() //Just a Spacer for Playground
+
+var os1 = "Windows"
+var os2 = "OSX Yosemite"
+
+switch os2{
+      case "Windows":
+        println("Hinaaaa! Please use \(os2)")
+    
+      case "OSX Yosemite":
+        println("Lakassss! thank you for not using \(os1)")
+    
+default:
+    println("No OS Detected")
+    
+}
+
+//Functions
+
+func add(variable1:Int, variable2:Int)->Int{
+    
+    var added = variable1 + variable2
+    return added
+}
+
+add(1, 2)
+
+//Functions 2
+func names() -> (String, String){
+    
+    var Name1 = "Rabby"
+    var Last1 = "Calicdan"
+    
+    return(Name1, Last1)
+    
+    
+}
+
+println(names())
+
+//Classes
 
 
+class rabby {
+    
+    var ngalan = "default"
+    var edad = 0
+    
+    func animalName() -> String{
+        
+        return "the name is \(ngalan) and age is \(edad) in dog years."
+    }
+}
 
+var animals = rabby()
 
-
-
-
-
-
+animals.ngalan = "Maningning"
+animals.edad = 4
+animals.animalName()
 
 
 
